@@ -41,8 +41,8 @@ two_columns_layout: false
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: "UA-142522944-1X"
+url: "https://www.henrybernreuter.com" # the base hostname & protocol for your site
+google_analytics: "UA-142522944-1"
 language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
@@ -96,7 +96,10 @@ exclude: [
   'Gemfile',
   'Gemfile.lock',
   'gulpfile.js',
-  'README.md'
+  'README.md',
+  'new-post.ps1',
+  'tools',
+  'post-builder.exe'
 ]
 
 # Theme

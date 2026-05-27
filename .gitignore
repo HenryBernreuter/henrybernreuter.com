@@ -6,3 +6,11 @@ package-json.lock
 _site
 node_modules
 _drafts
+
+# Post builder tool
+tools/post-builder/config.json
+tools/post-builder/dist/
+tools/post-builder/build/
+tools/post-builder/__pycache__/
+tools/post-builder/*.spec
+post-builder.exe
