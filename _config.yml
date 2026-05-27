@@ -49,6 +49,7 @@ sent_message_url: "/contact/message-sent/"
 
 
 # Build settings
+future: true
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
@@ -61,7 +62,7 @@ use_logo: false
 
 # Content paginator
 paginate_content:
-  enabled: true
+  enabled: false
   debug: false
   collections:
     - posts
