@@ -1,7 +1,6 @@
 [build]
-  command = "jekyll build"
+  command = "gem install bundler && bundle install && jekyll build"
   publish = "_site"
 
 [build.environment]
-  RUBY_VERSION = "2.7.0"
-  JEKYLL_ENV   = "production"
+  JEKYLL_ENV = "production"
