@@ -1,13 +1,51 @@
 ---
 layout: page
-title: about
+title: About
 permalink: /about
-
 ---
 
-<p><strong><span style="font-size: 18px;">I am determination.</span></strong><br>I was over thirty. I was overweight. I was overly fearful and depressed. My daughter was about to be born and I hated everything about my life. I felt my life had been a series of difficult events accumulating into no win choices.<br><strong><span style="font-size: 18px;">I needed change.</span></strong><br>I began my journey of change seeking out my passions of computer science and art. That led me to the belief that I needed to get a college degree. I was very unsure of what my options were as a thirty-five-year-old father of one. I took the entrance exam to start community college. I discovered quickly that I would need to start with remedial courses. My math skills were severely lacking. I, like many others found returning to college difficult to navigate. At every challenge for the next year I told myself that hardship I was enduring was to<strong>&nbsp;<span style="font-size: 18px;">make my life and my daughters's life better. &nbsp;</span></strong><br>After two semesters I was ready to start college level algebra.<br><strong><span style="font-size: 18px;">I did my best, but I failed.</span></strong><br>I began to understand that I was going to need self-discipline and endurance to accomplish my goals. I had neither. I started the next semester with more vigor. I was able to scrape by with a very low C average. I believed the professor just took pity on me and gave me a passing grade. For me that was not going to be enough, I became determined to really understand the subject matter. I know currently, that math skills are very important. I took the course again and received an A.<br><strong><span style="font-size: 18px;">I started to find myself becoming more and more determined.</span></strong><span style="font-size: 18px;">&nbsp;</span>That same semester my wife handed me divorce papers. My world as I knew it came to an end. &nbsp;My dream of getting a degree was all I had. I was determined not to fail again.</p>
-<p>I moved to downtown Atlanta and continued my education. I was the oldest student living in the dorms. The transition from seeing my daughter every day to strangers looking at me with question of why I was there, was not easy. I had been comfortable for too long. I had to make this work. I retook classes that I had failed and got better grades.<br><strong><span style="font-size: 18px;">I was becoming even more determined.</span></strong></p>
-<p>Living in Atlanta without a car was a challenge. I had to learn new ways of getting around. I could barely walk a mile when I moved here. I became more determined than ever to lose weight and get into shape. After a year of walking everywhere I need to go I finally started using the gym. <strong><span style="font-size: 18px;">I lost 70 pounds that year.</span></strong></p>
-<p><strong><span style="font-size: 18px;">I took my health and my academics more serious than ever.</span></strong><span style="font-size: 18px;">&nbsp;</span>My GPA was improving, and I was able to run 3 miles without stopping. Then one day while I was spending time with my daughter at the local dog park I had a sharp pain in my chest. We went home and 
-I laid down to take a nap. When I awoke the pain had gotten worse. I decided to take my daughter to her mother&rsquo;s house early. That night the pain got worse, but I was able to sleep. The following morning, I spoke with my sister who is an ER nurse. She told me to come to the ER to be evaluated. I got to the ER and after a few test<strong>&nbsp;<span style="font-size: 18px;">it was obvious I was suffering a heart</span></strong><span style="font-size: 18px;">&nbsp;</span><strong><span style="font-size: 18px;">attack</span>.</strong> I was rushed to surgery. During the surgery I experienced another heart attack. All totaled I was in the hospital for 7 days.<br><strong><span style="font-size: 18px;">The day after I left the hospital my step father died.</span></strong><br>My heart attacks happened in the middle of a fall semester.<span style="font-size: 18px;">&nbsp;<strong>I did not ask for extra time from any of my professors I just kept going.</strong>&nbsp;</span>I was determined <strong>not</strong> use <strong>excuses</strong> anymore in my life not even a heart attack. That semester I received two A&rsquo;s and two B&rsquo;s.</p>
-<p>After two years and many obstacles I came to realize that <strong><span style="font-size: 18px;">I can accomplish anything</span>,</strong> through self-discipline and determination.<br><strong><span style="font-size: 18px;">I found a path to rebuild my life by my own design, this website is my attempt to show others how to do exactly what I have done.</span></strong></p>
+<h1>About Me</h1>
+
+<p>
+  I am more than a data scientist or programmer — I am a builder. Throughout my career, I have
+  consistently identified problems, designed solutions, and delivered working products that create
+  measurable value. My experience spans data science, data engineering, software development,
+  cloud architecture, and artificial intelligence, allowing me to bridge the gap between business
+  needs and technical execution.
+</p>
+
+<p>
+  I have built analytics platforms, AI-powered applications, clinical data solutions, cloud-based
+  systems, APIs, machine learning models, and reusable software packages. I am equally comfortable
+  discussing strategy with stakeholders, designing scalable data architectures, developing
+  production-ready code, and deploying solutions to the cloud.
+</p>
+
+<p>
+  What sets me apart is not a specific programming language or technology stack, but my ability to
+  learn quickly, adapt to new domains, and take ownership of complex problems from concept to
+  delivery. Whether working with clinical trial data, real-world evidence, financial systems, legal
+  technology, or generative AI, I focus on creating practical solutions that improve efficiency,
+  generate insights, and solve real business challenges.
+</p>
+
+<p>
+  At my core, I am an entrepreneur, engineer, and problem solver who enjoys building things that
+  did not exist before. When I see an opportunity for improvement, I do not wait for someone else
+  to solve it — I take the initiative to design, build, and deliver the solution myself.
+</p>
+
+<h2>What I work with</h2>
+<ul>
+  <li><strong>Languages:</strong> Python, R, SQL</li>
+  <li><strong>Data &amp; AI:</strong> pandas, NumPy, scikit-learn, dbt, LangChain, Claude API</li>
+  <li><strong>Cloud:</strong> AWS (Glue, S3, Athena, Lambda, Amplify)</li>
+  <li><strong>Visualization:</strong> matplotlib, seaborn, Plotly, Tableau</li>
+</ul>
+
+<h2>Get in touch</h2>
+<p>
+  Find me on <a href="https://github.com/HenryBernreuter">GitHub</a>,
+  <a href="https://www.linkedin.com/in/HenryBernreuter">LinkedIn</a>,
+  or use the <a href="/contact/">contact form</a>.
+</p>

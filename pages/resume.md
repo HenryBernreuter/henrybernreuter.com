@@ -1,9 +1,7 @@
 ---
-layout: post
+layout: page
 title: Resume
 permalink: /resume
-
-
 ---
 
 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:13.05pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;color:black;text-align:center;'><strong><span style="font-size:29px;line-height:107%;">Henry Bernreuter&nbsp;</span></strong></p>
