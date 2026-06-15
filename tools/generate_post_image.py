@@ -25,11 +25,11 @@ import requests
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-COMFY_URL      = "http://127.0.0.1:8188"
+COMFY_URL      = "http://127.0.0.1:8000"
 COMFY_OUTPUT   = Path(r"C:\Users\bernr\Documents\ComfyUI\output")
 WORKFLOW_FILE  = Path(r"C:\Users\bernr\Documents\ComfyUI\user\default\workflows\post_image_workflow.json")
 ASSETS_DIR     = Path(__file__).parent.parent / "assets" / "img"
-CHECKPOINT     = "NSFW_master_ZIT_000008766.safetensors"
+CHECKPOINT     = "sd_xl_base_1.0.safetensors"
 
 NEGATIVE = (
     "text, watermark, logo, signature, username, words, letters, typography, "
@@ -214,7 +214,7 @@ def copy_to_assets(comfy_filename: str, dest_name: str) -> Path:
     src = COMFY_OUTPUT / comfy_filename
     dest = ASSETS_DIR / dest_name
     shutil.copy2(src, dest)
-    print(f"  Saved → {dest}")
+    print(f"  Saved -> {dest}")
     return dest
 
 
@@ -224,9 +224,9 @@ def generate(post: str, kind: str):
     filename_prefix = f"{post}-{kind}"
 
     if kind == "hero":
-        width, height = 768, 432
+        width, height = 1024, 576   # SDXL native 16:9
     else:
-        width, height = 512, 320
+        width, height = 768, 448    # SDXL native thumbnail
 
     print(f"\n[{post}] Generating {kind} ({width}x{height})...")
     workflow_api = build_api_prompt(positive, NEGATIVE, width, height, filename_prefix)
