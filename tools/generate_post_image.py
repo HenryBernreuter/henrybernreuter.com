@@ -128,6 +128,19 @@ POSTS = {
             "dark background, teal neon, server concept art, sharp"
         ),
     },
+    "databricks": {
+        "hero": (
+            "masterpiece, best quality, highly detailed, digital concept art, "
+            "massive data lakehouse visualization, glowing delta lake storage layers, "
+            "Apache Spark cluster nodes connected by streaming data rivers, "
+            "red and orange light on dark background, enterprise data platform, "
+            "cloud architecture abstract art, 8k, sharp"
+        ),
+        "thumb": (
+            "masterpiece, best quality, digital art, glowing red orange data streams, "
+            "Spark cluster nodes, dark background, data lakehouse abstract, sharp"
+        ),
+    },
     "tensorflow": {
         "hero": (
             "masterpiece, best quality, highly detailed, digital concept art, "
