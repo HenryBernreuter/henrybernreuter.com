@@ -1,5 +1,5 @@
 ---
-date: 2026-06-15 10:00:00
+date: 2026-06-16 09:00:00
 layout: post
 title: "NumPy in One Post"
 subtitle: "The invisible foundation that every AI library is built on"
