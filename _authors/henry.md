@@ -3,8 +3,8 @@ layout: author
 photo: /assets/img/uploads/profile.png
 name: henry
 display_name: Henry Bernreuter
-position: Data Engineer
-bio: Data engineer and data scientist. I write about Python, R, data pipelines, and machine learning.
+position: Full Stack AI Engineer
+bio: AI engineer and builder. I write about Python, AI systems, data engineering, and building things that didn't exist before.
 github_username: HenryBernreuter
 facebook_username: HenryGBernreuter
 twitter_username: BurnzAnalytics
