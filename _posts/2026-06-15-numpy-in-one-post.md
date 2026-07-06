@@ -1,4 +1,4 @@
----
+﻿---
 date: 2026-06-16 09:00:00
 layout: post
 title: "NumPy in One Post"

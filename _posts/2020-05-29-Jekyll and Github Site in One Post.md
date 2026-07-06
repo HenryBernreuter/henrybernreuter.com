@@ -270,7 +270,5 @@ Add it to the github repo with git push
 
 
 
-If you made it this far and wish to support my efforts 
-<a href="https://www.buymeacoffee.com/HenryBernreuter" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
 
 

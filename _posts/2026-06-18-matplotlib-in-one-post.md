@@ -1,4 +1,4 @@
----
+﻿---
 date: 2026-06-18 09:00:00
 layout: post
 title: "Matplotlib in One Post"

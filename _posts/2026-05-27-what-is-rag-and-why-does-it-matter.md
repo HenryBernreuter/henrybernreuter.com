@@ -1,4 +1,4 @@
----
+﻿---
 date: 2026-05-27 09:00:00
 layout: post
 title: What Is RAG and Why Does Every AI App Use It?

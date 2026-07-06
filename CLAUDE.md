@@ -7,9 +7,8 @@ Jekyll blog hosted on GitHub Pages. Push to `main` to deploy.
 1. Create a file in `_posts/` named `YYYY-MM-DD-title-slug.md`
 2. Copy the frontmatter block below and fill in the fields
 3. Write the post body in Markdown below the frontmatter
-4. Add the Buy Me a Coffee button HTML at the top and bottom of the body (copy from `_drafts/test.md`)
-5. **Generate a hero image** — see the Hero Image section below
-6. Commit and push to `main` — GitHub Pages rebuilds automatically
+4. **Generate a hero image** — see the Hero Image section below
+5. Commit and push to `main` — GitHub Pages rebuilds automatically
 
 ### Frontmatter Template
 

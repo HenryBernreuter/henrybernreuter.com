@@ -1,11 +1,11 @@
----
+﻿---
 date: 2026-06-15 09:00:00
 layout: post
 title: "Scikit-Learn in One Post"
 subtitle: "Where it came from, what it does, and why it's still the backbone of AI"
 description: The origin story of the library that taught a generation to build machine learning models — and why it still matters in the age of ChatGPT.
-image: /assets/img/sklearn-hero.svg
-optimized_image: /assets/img/sklearn-hero.svg
+image: /assets/img/sklearn-hero.png
+optimized_image: /assets/img/sklearn-thumb.png
 category: tutorial
 tags: python machine-learning scikit-learn ai tutorial
 toc: true

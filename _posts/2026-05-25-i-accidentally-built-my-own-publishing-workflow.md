@@ -1,4 +1,4 @@
----
+﻿---
 date: 2026-05-25 09:00:00
 layout: post
 title: I Accidentally Built My Own Publishing Workflow

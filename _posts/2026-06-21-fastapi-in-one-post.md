@@ -1,4 +1,4 @@
----
+﻿---
 date: 2026-06-21 09:00:00
 layout: post
 title: "FastAPI in One Post"
