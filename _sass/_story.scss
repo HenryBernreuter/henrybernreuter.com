@@ -41,6 +41,11 @@
       margin-bottom: rem(10px);
     }
 
+    img.post-cover {
+      max-width: rem(560px);
+      width: 100%;
+    }
+
     p.story-end {
       text-align: center;
       color: darken($lightGray, 30%);

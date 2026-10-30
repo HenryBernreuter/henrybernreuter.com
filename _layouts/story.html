@@ -24,8 +24,9 @@
                     <p class="post-subtitle">{{ page.subtitle }}</p>
                 {% endif %}
 
-                {% if page.image %}
-                    <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title }}" class="post-cover">
+                {% assign cover = page.story_image | default: page.image %}
+                {% if cover %}
+                    <img src="{{ cover }}" alt="{{ page.image_alt | default: page.title }}" class="post-cover">
                 {% endif %}
 
                 <div class="story-body">
