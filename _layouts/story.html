@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ site.language }}" class="no-js">
+    {% include head.html %}
+    <body class="has-push-menu">
+        {% include minutes-to-read.html %}
+        {% include svg-icons.html %}
+        {% include header.html %}
+
+        <!-- Stories: a quiet reading page. No TOC, recommendations, or pop-ups. -->
+        <section class="post one-column story">
+            <article role="article" class="post-content">
+                <p class="post-info">
+                    {% if page.date %}
+                        <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
+                        <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
+                            {% include date.html date=page.date %}
+                        </time>
+                    {% endif %}
+                    <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
+                    <span>{{ minutesText }}</span>
+                </p>
+                <h1 class="post-title">{{ page.title }}</h1>
+                {% if page.subtitle %}
+                    <p class="post-subtitle">{{ page.subtitle }}</p>
+                {% endif %}
+
+                {% if page.image %}
+                    <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title }}" class="post-cover">
+                {% endif %}
+
+                <div class="story-body">
+                    {{ content }}
+                </div>
+
+                <p class="story-end">&#8212;</p>
+            </article>
+        </section>
+
+        {% if site.show_time_bar == true %}
+            {% include time-bar.html %}
+        {% endif %}
+
+        {% include share.html %}
+        {% include author.html %}
+        {% include footer.html %}
+
+        {% assign author = site.authors | where: "name", page.author | first %}
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "ShortStory",
+            "name": "{{ page.title }}",
+            "description": "{{ page.description }}",
+            "image": "{{ page.image }}",
+            "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+            "wordcount": "{{ content | number_of_words }}",
+            "inLanguage": "{{ site.language }}",
+            "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+            "author": {
+                "@type": "Person",
+                "name": "{{ author.display_name }}"
+            }
+        }
+        </script>
+    </body>
+</html>

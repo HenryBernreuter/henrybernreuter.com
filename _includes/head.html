@@ -82,6 +82,9 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
+    {% if page.layout == "story" %}
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700&display=swap" rel="stylesheet">
+    {% endif %}
 
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ url }}">

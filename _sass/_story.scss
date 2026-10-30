@@ -1,0 +1,50 @@
+// Story layout: narrower column, serif type, no code-blog chrome.
+.post.story {
+  .post-content {
+    h1.post-title,
+    p.post-subtitle,
+    .story-body p {
+      font-family: "Lora", Georgia, "Times New Roman", serif;
+    }
+
+    h1.post-title {
+      font-weight: 700;
+      text-align: center;
+    }
+
+    p.post-subtitle,
+    p.post-info {
+      text-align: center;
+    }
+
+    p.post-subtitle {
+      font-style: italic;
+    }
+
+    .story-body p {
+      @include center(rem(640px));
+      font-size: rem(18px);
+      line-height: 1.75;
+      letter-spacing: 0;
+
+      @include media(">=sm") {
+        font-size: rem(20px);
+      }
+    }
+
+    // Stage directions, e.g. [beat]
+    .story-body p.stage {
+      font-style: italic;
+      text-align: center;
+      color: darken($lightGray, 35%);
+      margin-top: rem(30px);
+      margin-bottom: rem(10px);
+    }
+
+    p.story-end {
+      text-align: center;
+      color: darken($lightGray, 30%);
+      margin-top: rem(40px);
+    }
+  }
+}
